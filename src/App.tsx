@@ -1,12 +1,12 @@
-import './App.css';
 import CountdownTimer from './components/CountdownTimer';
+import './App.css';
 
-export default function App() {
+const App = () => {
     return (
         <div className='App'>
-            <header className='App-header'>
-                <CountdownTimer />
-            </header>
+            <CountdownTimer />
         </div>
     );
-}
+};
+
+export default App;
